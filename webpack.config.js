@@ -9,6 +9,9 @@ module.exports = {
 			{
 				test: /\.jsx?$/,
 				loader: 'babel-loader',
+				query:{
+          			presets:['react']
+        		},
 				exclude: /node_modules/
 			}
 		]
